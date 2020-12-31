@@ -1,0 +1,18 @@
+Brewfile - [Brew formulae, cask & mas]
+--------------------------------------
+
+Help:
+
+- http://brew.sh/
+- http://homebrew-file.readthedocs.io/
+- https://github.com/Homebrew/homebrew-bundle
+
+Setup:
+
+- brew install rcmdnk/file/brew-file
+- export HOMEBREW_BREWFILE=~/.config/brewfile/Brewfile
+- brew file init
+
+Usage:
+
+- brew file install
