@@ -47,6 +47,7 @@ brew gmp
 brew gnupg
 brew gnutls
 brew go
+brew gpp
 brew grep
 brew guile
 brew hdf5
