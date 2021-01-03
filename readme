@@ -6,13 +6,19 @@ Help:
 - http://brew.sh/
 - http://homebrew-file.readthedocs.io/
 - https://github.com/Homebrew/homebrew-bundle
+    
+    brew-file help
 
 Setup:
 
-- brew install rcmdnk/file/brew-file
-- export HOMEBREW_BREWFILE=~/.config/brewfile/Brewfile
-- brew file init
+    brew install rcmdnk/file/brew-file
+    export HOMEBREW_BREWFILE=~/.config/brewfile/Brewfile
+    brew file init
 
 Usage:
 
-- brew file install
+    brew-file install -f ./Brefile
+
+Backup:
+
+    brew-file dump -f ./Brewfile
