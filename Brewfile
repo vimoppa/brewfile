@@ -114,7 +114,6 @@ brew mkcert
 brew mpfr
 brew msgpack
 brew ncurses
-brew neovim
 brew netcdf
 brew nettle
 brew nghttp2
@@ -182,6 +181,7 @@ tap homebrew/bundle
 
 tap homebrew/cask-fonts
 cask font-fira-code
+cask font-hack-nerd-font
 cask font-input
 cask font-roboto
 
@@ -211,6 +211,7 @@ cask vagrant
 cask virtualbox
 cask virtualbox-extension-pack
 cask vlc
+cask xquartz
 cask zoom
 
 tap aws/tap
