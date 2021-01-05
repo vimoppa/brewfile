@@ -122,6 +122,7 @@ brew npth
 brew nspr
 brew nss
 brew numpy
+brew nvm
 brew oniguruma
 brew openblas
 brew openjpeg
