@@ -5,9 +5,11 @@ tap homebrew/core
 brew ack
 brew act
 brew adns
+brew aom
 brew apr
 brew apr-util
 brew argon2
+brew asciinema
 brew aspell
 brew autoconf
 brew automake
@@ -24,15 +26,19 @@ brew cmake
 brew csvkit
 brew ctags
 brew curl
+brew dav1d
 brew dive
 brew docker
 brew eigen
 brew epsilon
 brew expat
+brew ffmpeg
 brew flac
 brew fontconfig
 brew freetype
 brew freexl
+brew frei0r
+brew fribidi
 brew fzf
 brew gcc
 brew gdal
@@ -47,9 +53,12 @@ brew gmp
 brew gnupg
 brew gnutls
 brew go
+brew gobject-introspection
 brew gpp
+brew graphite2
 brew grep
 brew guile
+brew harfbuzz
 brew hdf5
 brew hey
 brew htop
@@ -67,7 +76,10 @@ brew kubernetes-cli
 brew lame
 brew lazydocker
 brew lazygit
+brew leptonica
+brew libass
 brew libassuan
+brew libbluray
 brew libdap
 brew libev
 brew libevent
@@ -86,6 +98,8 @@ brew libpthread-stubs
 brew librttopo
 brew libsamplerate
 brew libsndfile
+brew libsodium
+brew libsoxr
 brew libspatialite
 brew libssh
 brew libssh2
@@ -96,7 +110,9 @@ brew libtool
 brew libunistring
 brew libusb
 brew libuv
+brew libvidstab
 brew libvorbis
+brew libvpx
 brew libvterm
 brew libxau
 brew libxdmcp
@@ -105,6 +121,7 @@ brew libyaml
 brew little-cms2
 brew lua
 brew luajit
+brew lynx
 brew lz4
 brew lzo
 brew mas
@@ -125,6 +142,7 @@ brew numpy
 brew nvm
 brew oniguruma
 brew openblas
+brew opencore-amr
 brew openjpeg
 brew openldap
 brew openssl@1.1
@@ -146,6 +164,7 @@ brew protobuf-c
 brew python@3.8
 brew python@3.9
 brew qt
+brew rav1e
 brew readline
 brew reattach-to-user-namespace
 brew ripgrep
@@ -153,12 +172,20 @@ brew rtmpdump
 brew rubberband
 brew ruby
 brew rustup-init
+brew sdl2
 brew sfcgal
+brew skaffold
+brew snappy
+brew speex
 brew sqlite
+brew srt
 brew subversion
 brew szip
+brew tcl-tk
 brew telnet
+brew tesseract
 brew the_silver_searcher
+brew theora
 brew tmate
 brew tmux
 brew tmuxinator
@@ -171,10 +198,15 @@ brew utf8proc
 brew vim
 brew webp
 brew wget
+brew x264
+brew x265
 brew xerces-c
 brew xorgproto
+brew xvid
 brew xz
 brew youtube-dl
+brew zeromq
+brew zimg
 brew zsh
 brew zstd
 
@@ -199,11 +231,13 @@ cask iterm2
 cask lastpass
 cask lens
 cask macdown
+cask miro
 cask notion
 cask obs
 cask obs-virtualcam
 cask openvpn-connect
 cask postman
+cask signal
 cask sketch
 cask sketchbook
 cask slack
@@ -214,6 +248,9 @@ cask virtualbox-extension-pack
 cask vlc
 cask xquartz
 cask zoom
+
+tap agrinman/tap
+brew tunnelto
 
 tap aws/tap
 brew aws-sam-cli
@@ -238,4 +275,6 @@ appstore 1402042596 AdBlock (1.27.0)
 appstore 1482920575 DuckDuckGo Privacy Essentials (1.4.3)
 appstore 682658836 GarageBand (10.4.1)
 appstore 408981434 iMovie (10.2.1)
+appstore 1496833156 Playgrounds (3.4)
 appstore 1147396723 WhatsApp (2.2045.19)
+appstore 497799835 Xcode (12.4)
