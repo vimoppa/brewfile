@@ -11,11 +11,13 @@ brew apr-util
 brew argon2
 brew asciinema
 brew aspell
+brew assimp
 brew autoconf
 brew automake
 brew awscli
 brew bat
 brew bdw-gc
+brew berkeley-db
 brew boost
 brew brotli
 brew c-ares
@@ -27,8 +29,10 @@ brew csvkit
 brew ctags
 brew curl
 brew dav1d
+brew dbus
 brew dive
 brew docker
+brew double-conversion
 brew eigen
 brew epsilon
 brew expat
@@ -65,6 +69,7 @@ brew htop
 brew hyperkit
 brew icu4c
 brew isl
+brew jasper
 brew jemalloc
 brew jpeg
 brew jpegoptim
@@ -79,6 +84,7 @@ brew lazygit
 brew leptonica
 brew libass
 brew libassuan
+brew libb2
 brew libbluray
 brew libdap
 brew libev
@@ -94,6 +100,7 @@ brew libmpc
 brew libogg
 brew libpng
 brew libpq
+brew libproxy
 brew libpthread-stubs
 brew librttopo
 brew libsamplerate
@@ -114,9 +121,13 @@ brew libvidstab
 brew libvorbis
 brew libvpx
 brew libvterm
+brew libx11
 brew libxau
+brew libxcb
 brew libxdmcp
+brew libxext
 brew libxml2
+brew libxrender
 brew libyaml
 brew little-cms2
 brew lua
@@ -128,6 +139,7 @@ brew mas
 brew minikube
 brew minizip
 brew mkcert
+brew mpdecimal
 brew mpfr
 brew msgpack
 brew ncurses
@@ -221,12 +233,16 @@ cask font-roboto
 tap homebrew/services
 
 tap homebrew/cask
+cask alacritty
 cask alfred
 cask appcleaner
 cask brave-browser
+cask devdocs
 cask discord
+cask eul
 cask google-backup-and-sync
 cask grammarly
+cask hubstaff
 cask iterm2
 cask lastpass
 cask lens
@@ -237,11 +253,15 @@ cask obs
 cask obs-virtualcam
 cask openvpn-connect
 cask postman
+cask robo-3t
 cask signal
 cask sketch
 cask sketchbook
+cask skype
 cask slack
+cask spotify
 cask telegram
+cask tunnelblick
 cask vagrant
 cask virtualbox
 cask virtualbox-extension-pack
