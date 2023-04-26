@@ -4,21 +4,18 @@ brewfile - [Brew formulae, cask & mas]
 Help:
 
 - http://brew.sh/
-- http://homebrew-file.readthedocs.io/
 - https://github.com/Homebrew/homebrew-bundle
-    
-    brew-file help
 
-Setup:
+    brew bundle help
 
-    brew install rcmdnk/file/brew-file
+Setup: Make sure dotfile symlinks have been established.
+
     export HOMEBREW_BREWFILE=~/.config/brewfile/Brewfile
-    brew file init
 
 Usage:
 
-    brew-file install -f ./Brefile
+    brew bundle
 
 Backup:
 
-    brew-file dump -f ./Brewfile
+    brew bundle dump -f ./Brewfile
